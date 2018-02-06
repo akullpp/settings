@@ -1,0 +1,21 @@
+{
+	"Import React": {
+		"prefix": "imp",
+		"body": [
+			"import React, { Component } from 'react'",
+			"",
+			"$0"
+		]
+	},
+	"Create React Class": {
+		"prefix": "cla",
+		"body": [
+			"class $1 extends Component {",
+			  "$0",
+			"}",
+			"",
+			"export default $1",
+			""
+		]
+	}
+}
