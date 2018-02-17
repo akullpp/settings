@@ -5,6 +5,8 @@
     "files.associations": {
         "*.js": "javascriptreact"
     },
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
     "editor.snippetSuggestions": "top",
     "editor.formatOnPaste": false,
@@ -16,5 +18,7 @@
     "explorer.confirmDelete": false,
     "window.zoomLevel": 0,
     "window.menuBarVisibility": "hidden",
-    "workbench.editor.enablePreview": false
+    "workbench.editor.enablePreview": false,
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.iconTheme": "Monokai Pro Icons"
 }
