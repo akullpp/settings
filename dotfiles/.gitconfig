@@ -10,7 +10,7 @@
 	stash = stash -u -k
 [user]
 	name = Andreas Kull
-	email = akullpp@gmail.com
+	email = akullpp@googlemail.com
 	signingkey = A062673F
 [push]
 	followTags = true
