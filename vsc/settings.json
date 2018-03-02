@@ -5,7 +5,6 @@
     "files.associations": {
         "*.js": "javascriptreact"
     },
-    "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
     "editor.snippetSuggestions": "top",
     "editor.formatOnPaste": false,
