@@ -1,0 +1,20 @@
+[core]
+	pager = diff-so-fancy | less --tabs=4 -RFX
+	autocrlf = true
+[alias]
+	st = status
+	ap = !git add . && git commit --amend --no-edit && git push -f
+	br = !git branch --merged develop | grep -v \"\\* develop\" | xargs -n 1 git branch -d
+	prune = fetch --prune
+	undo = reset --soft HEAD^
+	stash = stash -u -k
+[user]
+	name = Andreas Kull
+	email = akullpp@gmail.com
+	signingkey = A062673F
+[push]
+	followTags = true
+[commit]
+	gpgsign = true
+[gpg]
+	program = D:\\Programme\\GnuPG\\bin\\gpg.exe
