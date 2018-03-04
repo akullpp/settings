@@ -1,0 +1,7 @@
+Specific style settings which require custom fonts/plugins.
+
+"editor.fontFamily": "Operator Mono Lig",
+"editor.fontSize": 16,
+"editor.fontLigatures": true,
+"workbench.colorTheme": "Monokai Pro",
+"workbench.iconTheme": "Monokai Pro Icons"
