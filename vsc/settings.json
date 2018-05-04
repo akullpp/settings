@@ -2,19 +2,16 @@
     "files.autoSave": "onFocusChange",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
-    "files.associations": {
-        "*.js": "javascriptreact"
-    },
     "editor.minimap.enabled": false,
     "editor.snippetSuggestions": "top",
-    "editor.formatOnPaste": false,
+    "editor.formatOnPaste": true,
     "editor.wordWrap": "on",
-    "editor.multiCursorModifier": "ctrlCmd",
     "emmet.triggerExpansionOnTab": true,
     "explorer.openEditors.visible": 0,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "window.zoomLevel": 0,
     "window.menuBarVisibility": "hidden",
-    "workbench.editor.enablePreview": false
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "newUntitledFile"
 }
