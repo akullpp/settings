@@ -1,0 +1,32 @@
+{
+	"Import React": {
+		"prefix": "imp",
+		"body": [
+			"import React, { Component } from 'react'",
+			"",
+			"$0"
+		]
+	},
+	"Create React class": {
+		"prefix": "cla",
+		"body": [
+			"class $1 extends Component {",
+			  "$0",
+			"}",
+			"",
+			"export default $1",
+			""
+		]
+	},
+	"Connect component to Redux": {
+		"prefix": "re",
+		"body": [
+			"const mapStateToProps = () => (${1})",
+			"",
+			"const mapDispatchToProps = {${2}}",
+			"",
+			"export default connect(mapStateToProps, mapDispatchToProps)($0)",
+			""
+		]
+	}
+}
