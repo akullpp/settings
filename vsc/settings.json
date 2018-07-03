@@ -4,14 +4,15 @@
     "files.insertFinalNewline": true,
     "editor.minimap.enabled": false,
     "editor.snippetSuggestions": "top",
-    "editor.formatOnPaste": true,
     "editor.wordWrap": "on",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
     "emmet.triggerExpansionOnTab": true,
     "explorer.openEditors.visible": 0,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "window.zoomLevel": 0,
     "window.menuBarVisibility": "hidden",
-    "workbench.editor.enablePreview": false,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
 }
