@@ -6,7 +6,6 @@
     "editor.snippetSuggestions": "top",
     "editor.wordWrap": "on",
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "emmet.triggerExpansionOnTab": true,
     "explorer.openEditors.visible": 0,
@@ -14,5 +13,8 @@
     "explorer.confirmDelete": false,
     "window.zoomLevel": 0,
     "window.menuBarVisibility": "hidden",
+    "workbench.activityBar.visible": false,
     "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.enablePreview": false,
+    "workbench.statusBar.visible": false
 }
