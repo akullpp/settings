@@ -4,7 +4,6 @@ Specific style settings which requires [Operator Mono](https://www.typography.co
 
 ```json
 "editor.fontFamily": "Operator Mono Lig",
-"editor.fontSize": 16,
 "editor.fontLigatures": true,
 ```
 
