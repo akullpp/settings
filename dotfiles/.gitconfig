@@ -9,21 +9,13 @@
 	gpgsign = true
 [core]
 	autocrlf = true
-	editor = code --wait
 	eol = lf
 	ignorecase = false
 	pager = diff-so-fancy | less --tabs=4 -RFX  
-[diff]
-	tool = vscode
-[difftool "vscode"]
-	cmd = code --wait -diff $LOCAL $REMOTE
 [log]
 	decorate = full
 [merge]
 	ff = only
-	tool = vscode
-[mergetool "vscode"]
-	cmd = code --wait $MERGED
 [pull]
 	rebase = true
 [push]
@@ -39,4 +31,3 @@
 	name = Andreas Kull
 	email = akullpp@googlemail.com
 	signingkey = A062673F
-  
