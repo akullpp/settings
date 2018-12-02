@@ -1,9 +1,9 @@
 # Optional user settings
 
-Specific style settings which requires [Operator Mono](https://www.typography.com/fonts/operator/styles/operatormono) with [ligatures](https://github.com/kiliman/operator-mono-lig):
+Specific style settings which requires [Fira Code](https://github.com/tonsky/FiraCode):
 
 ```json
-"editor.fontFamily": "Operator Mono Lig",
+"editor.fontFamily": "Fira Code",
 "editor.fontLigatures": true,
 ```
 
