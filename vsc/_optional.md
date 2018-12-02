@@ -11,5 +11,5 @@ and the [Monokai Pro](https://www.monokai.pro/vscode) plugin:
 
 ```json
 "workbench.colorTheme": "Monokai Pro",
-"workbench.iconTheme": "Monokai Pro Icons"
+"workbench.iconTheme": "Monokai Pro Icons",
 ```
