@@ -5,6 +5,7 @@ Specific style settings which requires [Fira Code](https://github.com/tonsky/Fir
 ```json
 "editor.fontFamily": "Fira Code",
 "editor.fontLigatures": true,
+"editor.fontSize": 16,
 ```
 
 and the [Monokai Pro](https://www.monokai.pro/vscode) plugin:
