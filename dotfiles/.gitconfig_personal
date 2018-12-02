@@ -1,2 +1,6 @@
 [commit]
 	gpgsign = true
+[user]
+	name = Andreas Kull
+	email = akullpp@googlemail.com
+	signingkey = A062673F
