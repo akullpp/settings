@@ -1,17 +1,12 @@
 [alias]
 	ap = !git add . && git commit --amend --no-edit && git push -f
-	br = !git branch --merged develop | grep -v \"\\* develop\" | xargs -n 1 git branch -d
-	pr = fetch --prune
 	st = status
 	stash = stash -u -k
 	undo = reset --soft HEAD^
-[commit]
-	gpgsign = true
 [core]
 	autocrlf = false
 	eol = lf
 	ignorecase = false
-	pager = diff-so-fancy | less --tabs=4 -RFX  
 [log]
 	decorate = full
 [merge]
@@ -26,8 +21,4 @@
 [status]
 	showUntrackedFiles = all
 [stash]
-	showPatch = true  
-[user]
-	name = Andreas Kull
-	email = akullpp@googlemail.com
-	signingkey = A062673F
+	showPatch = true
