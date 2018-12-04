@@ -8,9 +8,9 @@ Specific style settings which requires [Fira Code](https://github.com/tonsky/Fir
 "editor.fontSize": 16,
 ```
 
-and the [Monokai Pro](https://www.monokai.pro/vscode) plugin:
+and the [Material Theme](https://github.com/equinusocio/vsc-material-theme) plugin:
 
 ```json
-"workbench.colorTheme": "Monokai Pro",
-"workbench.iconTheme": "Monokai Pro Icons",
+"workbench.colorTheme": "Material Theme Darker",
+"workbench.iconTheme": "eq-material-theme-icons-darker",
 ```
