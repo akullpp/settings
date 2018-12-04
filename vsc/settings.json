@@ -15,9 +15,7 @@
     "window.menuBarVisibility": "hidden",
     "window.zoomLevel": 0,
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Monokai Pro",
     "workbench.editor.enablePreview": false,
-    "workbench.iconTheme": "Monokai Pro Icons",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.statusBar.visible": false
 }
