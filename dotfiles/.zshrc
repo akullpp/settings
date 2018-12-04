@@ -19,6 +19,3 @@ alias top="htop"
 alias find="fd"
 alias man="tldr"
 alias cat="bat"
-
-# Misc
-cd /mnt/d/Projects
