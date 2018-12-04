@@ -1,27 +1,41 @@
-# Plugins
+[Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 
-[formulahendry.auto-close-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 
-[formulahendry.auto-rename-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+[Babel JavaScript](https://marketplace.visualstudio.com/items?itemName=formulahendry.mgmcdermott.vscode-language-babel)
 
-[mgmcdermott.vscode-language-babel](https://marketplace.visualstudio.com/items?itemName=formulahendry.mgmcdermott.vscode-language-babel)
+[Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=coenraads.bracket-pair-colorizer)
 
-[coenraads.bracket-pair-colorizer](https://marketplace.visualstudio.com/items?itemName=coenraads.bracket-pair-colorizer)
+[Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
-[streetsidesoftware.code-spell-checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+[Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)
 
-[editorconfig.editorconfig](https://marketplace.visualstudio.com/items?itemName=editorconfig.editorconfig)
+[EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=editorconfig.editorconfig)
 
-[dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-[eamodio.gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-[davidanson.vscode-markdownlint](https://marketplace.visualstudio.com/items?itemName=davidanson.vscode-markdownlint)
+[htmltagwrap](https://marketplace.visualstudio.com/items?itemName=bradgashler.htmltagwrap)
 
-[christian-kohler.path-intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+[markdownlint](https://marketplace.visualstudio.com/items?itemName=davidanson.vscode-markdownlint)
 
-[esbenp.prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+[Material Theme](https://github.com/equinusocio/vsc-material-theme)
 
-[shan.code-settings-sync](https://marketplace.visualstudio.com/items?itemName=shan.code-settings-sync)
+[npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 
-[ban.spellright](https://marketplace.visualstudio.com/items?itemName=ban.spellright)
+[npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
+
+[Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+
+[Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
+
+[Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+[Settings Sync](https://marketplace.visualstudio.com/items?itemName=shan.code-settings-sync)
+
+[Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)
+
+[Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright)
+
+[Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
