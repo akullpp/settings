@@ -20,8 +20,6 @@
 
 [markdownlint](https://marketplace.visualstudio.com/items?itemName=davidanson.vscode-markdownlint)
 
-[Material Theme](https://github.com/equinusocio/vsc-material-theme)
-
 [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 
 [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
@@ -37,5 +35,3 @@
 [Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)
 
 [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright)
-
-[Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
