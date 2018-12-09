@@ -1,4 +1,6 @@
-# Essential plugins
+# Plugins
+
+Often dependening on the project currently working on but this is a general selection:
 
 [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 
@@ -20,6 +22,8 @@
 
 [htmltagwrap](https://marketplace.visualstudio.com/items?itemName=bradgashler.htmltagwrap)
 
+[Material Theme](https://github.com/equinusocio/vsc-material-theme)
+
 [markdownlint](https://marketplace.visualstudio.com/items?itemName=davidanson.vscode-markdownlint)
 
 [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
@@ -37,3 +41,5 @@
 [Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)
 
 [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright)
+
+[Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
