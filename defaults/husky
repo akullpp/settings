@@ -1,0 +1,12 @@
+"husky": {
+  "hooks": {
+    "pre-commit": "lint-staged"
+  }
+},
+"lint-staged": {
+  "src/**/*.js": [
+    "pretty-quick --staged",
+    "eslint --fix",
+    "git add"
+  ]
+},
