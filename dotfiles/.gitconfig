@@ -5,9 +5,27 @@
 	undo = reset --soft HEAD^
 	reset = reset --hard
 [core]
+	pager = diff-so-fancy | less --tabs=4 -RFX
+	editor = code --wait
 	autocrlf = false
 	eol = lf
 	ignorecase = false
+[commit]
+	gpgsign = true
+[color]
+	ui = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = yellow
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
 [log]
 	decorate = full
 [merge]
@@ -23,3 +41,9 @@
 	showUntrackedFiles = all
 [stash]
 	showPatch = true
+[user]
+	name = Andreas Kull
+	email = akullpp@googlemail.com
+	signingkey = A062673F
+[gpg]
+	program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe
