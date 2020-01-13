@@ -1,21 +1,10 @@
-# Antigen
-source $HOME/.antigen.zsh
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
 
-antigen use oh-my-zsh
-antigen theme agnoster
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
-antigen bundle git
-antigen bundle npm
-antigen bundle command-not-found
-antigen bundle lukechilds/zsh-nvm
-antigen bundle zsh-users/zsh-autosuggestions
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle zsh-users/zsh-history-substring-search ./zsh-history-substring-search.zsh
-
-antigen apply
-
-# Aliases
-alias top="htop"
-alias find="fd"
-alias man="tldr"
-alias cat="bat"
+export PATH=~/go-workspace/bin:~/go/bin:$PATH
+export GOPATH=~/go-workspace
