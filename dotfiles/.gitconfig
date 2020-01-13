@@ -3,6 +3,7 @@
 	st = status
 	stash = stash -u -k
 	undo = reset --soft HEAD^
+	reset = reset --hard
 [core]
 	autocrlf = false
 	eol = lf
