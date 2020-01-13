@@ -1,10 +1,16 @@
 {
+    "editor.fontFamily": "Operator Mono Lig",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
     "editor.wordWrap": "on",
+    "files.associations": {
+      "*.js": "javascriptreact"
+    },
     "emmet.triggerExpansionOnTab": true,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
@@ -15,7 +21,10 @@
     "window.menuBarVisibility": "hidden",
     "window.zoomLevel": 0,
     "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Monokai Pro",
     "workbench.editor.enablePreview": false,
+    "workbench.iconTheme": "Monokai Pro Icons",
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.statusBar.visible": false
+    "workbench.statusBar.visible": false,
+    "extensions.ignoreRecommendations": true
 }
