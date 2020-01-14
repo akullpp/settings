@@ -3,7 +3,6 @@
 Activation depends on the current project:
 
 * [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
-* [Auto Import](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport)
 * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 * [Babel JavaScript](https://marketplace.visualstudio.com/items?itemName=formulahendry.mgmcdermott.vscode-language-babel)
 * [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
