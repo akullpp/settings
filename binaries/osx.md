@@ -1,6 +1,5 @@
 # OSX
 
-- [BetterTouchTool](https://folivora.ai)
 - [Caffeine](http://lightheadsw.com/caffeine)
 - [Docker](https://www.docker.com)
 - [f.lux](https://justgetflux.com)
