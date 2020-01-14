@@ -9,5 +9,5 @@
 - [KeePassXC](https://keepassxc.org)
 - [numi](https://numi.app)
 - [Rectangle](https://rectangleapp.com)
-- [SourceTree](https://www.sourcetreeapp.com)
+- [Sourcetree](https://www.sourcetreeapp.com)
 - [Visual Studio Code](https://code.visualstudio.com)
