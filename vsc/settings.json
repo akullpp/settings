@@ -19,7 +19,6 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "window.menuBarVisibility": "hidden",
-    "window.zoomLevel": 0,
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Monokai Pro",
     "workbench.editor.enablePreview": false,
