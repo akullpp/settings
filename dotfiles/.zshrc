@@ -32,7 +32,6 @@ alias ping='prettyping'
 alias preview='fzf --preview "bat --color \"always\" {}"'
 alias man='tldr'
 alias top='glances'
-alias json='jqn'
 
 ###############
 # Environment #
