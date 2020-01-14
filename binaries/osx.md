@@ -8,6 +8,6 @@
 - [IntelliJ IDEA](https://www.jetbrains.com/idea)
 - [KeePassXC](https://keepassxc.org)
 - [numi](https://numi.app)
+- [Rectangle](https://rectangleapp.com)
 - [SourceTree](https://www.sourcetreeapp.com)
-- [Spectacle](https://www.spectacleapp.com)
 - [Visual Studio Code](https://code.visualstudio.com)
