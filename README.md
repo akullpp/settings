@@ -18,7 +18,7 @@ My personal settings containing:
   * gitconfig
   * zpreztorc
   * zshrc
-* Intellij IDEA 2018 settings
+* IntelliJ IDEA settings
 * Visual Studio Code
   * Keybindings
   * Plugins
