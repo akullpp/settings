@@ -2,7 +2,24 @@
 
 My personal settings containing:
 
-* Intellij IDEA 2018
+* Binaries
+  * Homebrew installation and packages
+  * npm packages
+  * nvm installation
+  * OSX packages
+  * prezto installation
+* Defaults
+  * editorconfig
+  * ava
+  * eslint
+  * husky
+  * prettier
+* Dotfiles
+  * gitconfig
+  * zpreztorc
+  * zshrc
+* Intellij IDEA 2018 settings
 * Visual Studio Code
-* General dotfiles
-* Default project files
+  * Keybindings
+  * Plugins
+  * Settings
