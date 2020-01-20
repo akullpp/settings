@@ -3,11 +3,10 @@
 My personal settings containing:
 
 * Binaries
-  * Homebrew installation and packages
   * npm packages
-  * nvm installation
+  * Chrome extensions
+  * CLI setup
   * OSX packages
-  * prezto installation
 * Defaults
   * editorconfig
   * ava
