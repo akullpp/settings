@@ -9,4 +9,5 @@ brew install \
   hstr \
   httpie \
   jq \
+  pyenv \
   thefuck
