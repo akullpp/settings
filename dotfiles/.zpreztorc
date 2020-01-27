@@ -1,6 +1,7 @@
 zstyle ':prezto:*:*' color 'yes'
 
 zstyle ':prezto:load' pmodule \
+  'git' \
   'terminal' \
   'history' \
   'spectrum' \
