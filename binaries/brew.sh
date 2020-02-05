@@ -6,7 +6,6 @@ brew install \
   exa \
   fzf \
   glances \
-  hstr \
   httpie \
   jq \
   pyenv \
