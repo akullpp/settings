@@ -40,7 +40,7 @@ alias fu='fuck'
 alias ls='exa'
 alias ll='exa -l'
 alias cat='bat'
-alias preview='fzf --preview "bat --color \"always\" {}"'
+alias fzf='fzf --preview "bat --color \"always\" {}"'
 alias man='tldr'
 alias top='glances'
 
