@@ -50,6 +50,7 @@ alias top='glances'
 
 export PATH=~/go-workspace/bin:~/go/bin:$PATH
 export GOPATH=~/go-workspace
+export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 
 #######
 # Run #
