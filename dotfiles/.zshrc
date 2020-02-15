@@ -6,31 +6,24 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 	source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
+########
+# asdf #
+########
+
+echo -e "\n. $(brew --prefix asdf)/asdf.sh" >> ~/.zshrc
+echo -e "\n. $(brew --prefix asdf)/etc/bash_completion.d/asdf.bash" >> ~/.zshrc
+
 ############
 # autojump #
 ############
 
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
-#########
-# pyenv #
-#########
-
-eval "$(pyenv init -)"
-
 ###########
 # thefuck #
 ###########
 
 eval $(thefuck --alias)
-
-#######
-# nvm #
-#######
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 ###########
 # Aliases #
