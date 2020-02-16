@@ -11,5 +11,4 @@ brew install \
   gpg \
   httpie \
   jq \
-  pyenv \
   thefuck
