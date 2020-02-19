@@ -4,7 +4,7 @@ sudo pacman -S \
   bat \
   docker \
   exa \
-  gdm \
+  fzf \
   git \
   glances \
   httpie \
