@@ -1,16 +1,13 @@
 zstyle ':prezto:*:*' color 'yes'
 
 zstyle ':prezto:load' pmodule \
-  'git' \
   'terminal' \
   'history' \
   'spectrum' \
   'completion' \
   'syntax-highlighting' \
   'history-substring-search' \
-  'prompt'
 
-zstyle ':prezto:module:prompt' theme 'sorin'
 zstyle ':prezto:module:terminal' auto-title 'yes'
 zstyle ':prezto:module:terminal:window-title' format '%s'
 zstyle ':prezto:module:terminal:tab-title' format '%c'
