@@ -1,8 +1,8 @@
 #!/bin/sh
 
 npm i -g \
+  npm \
   diff-so-fancy \
-  dockly \
   npm-check-updates \
   tldr \
   yo
