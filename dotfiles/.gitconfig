@@ -45,3 +45,5 @@
 	signingkey = A062673F
 [gpg]
 	program = /usr/local/bin/gpg
+[credential]
+	helper = /usr/lib/git-core/git-credential-libsecret
