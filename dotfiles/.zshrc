@@ -6,18 +6,24 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 	source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
+#############
+# powerline #
+#############
+powerline-daemon -q
+. /usr/lib/python3.8/site-packages/powerline/bindings/zsh/powerline.zsh
+
 ########
 # asdf #
 ########
 
-. /usr/local/opt/asdf/asdf.sh
-. /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
 
 ############
 # autojump #
 ############
 
-[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+. /etc/profile.d/autojump.zsh
 
 ###########
 # thefuck #
@@ -36,14 +42,6 @@ alias cat='bat'
 alias f='fzf --preview "bat --color \"always\" {}"'
 alias man='tldr'
 alias top='glances'
-
-###############
-# Environment #
-###############
-
-export PATH=~/go-workspace/bin:~/go/bin:$PATH
-export GOPATH=~/go-workspace
-export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 
 #######
 # Run #
