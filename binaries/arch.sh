@@ -14,7 +14,7 @@ sudo pacman -S \
   p7zip \
   powerline \
   powerline-fonts \
-  reshift \
+  redshift \
   thefuck \
   tldr \
   zsh
