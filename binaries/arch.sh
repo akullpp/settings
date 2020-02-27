@@ -8,12 +8,9 @@ sudo pacman -S \
   git \
   glances \
   httpie \
-  jdk-openjdk \
   jq \
   keepassxc \
   p7zip \
-  powerline \
-  powerline-fonts \
   redshift \
   thefuck \
   tldr \
@@ -22,5 +19,7 @@ sudo pacman -S \
 yay -S autojump \
   google-chrome \
   intellij-idea-ultimate-edition \
-  visual-studio-code-bin
-  
+  visual-studio-code-bin \
+  powerline-fonts-git \
+  slack-desktop \
+  zoom
