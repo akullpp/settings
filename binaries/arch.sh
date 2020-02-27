@@ -14,7 +14,8 @@ sudo pacman -S \
   redshift \
   thefuck \
   tldr \
-  zsh
+  zsh \
+  jdk-openjdk
 
 yay -S autojump \
   google-chrome \
