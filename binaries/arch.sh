@@ -3,8 +3,13 @@
 sudo pacman -S \
   bat \
   docker \
+  docker-compose \
   exa \
   fzf \
+  gdm \
+  gnome \
+  gnome-extra \
+  gradle \
   git \
   glances \
   httpie \
@@ -12,6 +17,7 @@ sudo pacman -S \
   keepassxc \
   p7zip \
   redshift \
+  texlive-most \
   thefuck \
   tldr \
   zsh \
