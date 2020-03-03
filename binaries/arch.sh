@@ -17,10 +17,11 @@ sudo pacman -S \
   zsh \
   jdk-openjdk
 
-yay -S autojump \
+yay -S \
+  autojump \
   google-chrome \
+  drive-bin \
   intellij-idea-ultimate-edition \
   visual-studio-code-bin \
   powerline-fonts-git \
-  slack-desktop \
   zoom
