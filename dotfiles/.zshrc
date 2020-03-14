@@ -1,4 +1,4 @@
- ##########
+##########
 # prezto #
 ##########
 
@@ -42,6 +42,7 @@ alias cat='bat'
 alias f='fzf --preview "bat --color \"always\" {}"'
 alias man='tldr'
 alias top='glances'
+alias editorconfig="http get https://raw.githubusercontent.com/akullpp/settings/master/defaults/.editorconfig > .editorconfig"
 
 #######
 # Run #
