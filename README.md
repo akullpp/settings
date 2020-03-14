@@ -3,16 +3,19 @@
 My personal settings containing:
 
 * Binaries
+  * Arch Linux
+  * Homebrew packages
   * npm packages
   * Chrome extensions
-  * CLI setup
   * OSX packages
 * Defaults
-  * editorconfig
-  * ava
-  * eslint
-  * husky
-  * prettier
+  * EditorConfig
+  * gitattributes
+  * AVA
+  * ESLint node
+  * ESLint react
+  * Husky
+  * Prettier
 * Dotfiles
   * gitconfig
   * zpreztorc
