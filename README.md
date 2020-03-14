@@ -1,6 +1,14 @@
 # Settings
 
-My personal settings containing:
+## Setup
+
+```
+OS: Arch Linux x86_64
+Kernel: 5.5.9-arch1-2
+Laptop: ThinkPad X1 Carbon 7th
+```
+
+## Content
 
 * Binaries
   * Arch Linux
