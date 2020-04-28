@@ -4,7 +4,7 @@
 
 ```
 OS: Arch Linux x86_64
-Kernel: 5.5.9-arch1-2
+Kernel: 5.6.6-arch1-1
 Laptop: ThinkPad X1 Carbon 7th
 ```
 
