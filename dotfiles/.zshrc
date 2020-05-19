@@ -11,25 +11,18 @@ fi
 ########
 
 . $HOME/.asdf/asdf.sh
-. $HOME/.asdf/completions/asdf.bash
 
 ############
 # autojump #
 ############
 
-. /etc/profile.d/autojump.zsh
+. /usr/share/autojump/autojump.sh
 
 ###########
 # thefuck #
 ###########
 
 eval $(thefuck --alias)
-
-##################
-# gnome-terminal #
-# ################
-
-. /etc/profile.d/vte.sh
 
 ###########
 # Aliases #
@@ -42,7 +35,7 @@ alias cat='bat'
 alias f='fzf --preview "bat --color \"always\" {}"'
 alias man='tldr'
 alias top='glances'
-alias editorconfig="http get https://raw.githubusercontent.com/akullpp/settings/master/defaults/.editorconfig > .editorconfig"
+alias editorconfig='http get https://raw.githubusercontent.com/akullpp/settings/master/defaults/.editorconfig > .editorconfig'
 
 #######
 # Run #
