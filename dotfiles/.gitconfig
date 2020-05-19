@@ -3,13 +3,12 @@
 	st = status
 	stash = stash -u -k
 	undo = reset --soft HEAD^
+	all = "!f() { ls -R -d */.git | xargs -I{} bash -c \"echo {} && git -C {}/../ $1\"; }; f"
 [core]
 	pager = diff-so-fancy | less --tabs=4 -RFX
 	editor = code --wait
 	autocrlf = input
 	ignorecase = false
-[commit]
-	gpgsign = true
 [color]
 	ui = true
 [color "diff-highlight"]
@@ -41,9 +40,6 @@
 	showPatch = true
 [user]
 	name = Andreas Kull
-	email = akullpp@googlemail.com
-	signingkey = A062673F
-[gpg]
-	program = /usr/local/bin/gpg
+	email = andreas.kull@pm.me
 [credential]
 	helper = /usr/lib/git-core/git-credential-libsecret
