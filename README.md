@@ -3,19 +3,17 @@
 ## Setup
 
 ```
-OS: Arch Linux x86_64
-Kernel: 5.6.6-arch1-1
-Laptop: ThinkPad X1 Carbon 7th
+OS: Ubuntu 20.04
+Kernel: 5.4.0-31-generic
 ```
 
 ## Content
 
 * Binaries
-  * Arch Linux
+  * Ubuntu
   * Homebrew packages
   * npm packages
-  * Chrome extensions
-  * OSX packages
+  * Firefox extensions
 * Defaults
   * EditorConfig
   * gitattributes
