@@ -57,4 +57,5 @@ cargo install exa
 dbeaver-ce
 IDEA Ultimate
 Visual Studio Code
+postman
 ```
