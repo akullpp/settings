@@ -1,7 +1,7 @@
 # apt
 
 ```
-sudo apt install bat docker docker-compose git glances httpie jq keepassxc p7zip tldr zsh curl autojump
+sudo apt install bat docker docker-compose git glances httpie jq keepassxc p7zip tldr zsh curl autojump gnome-tweaks
 ```
 
 # prezto
