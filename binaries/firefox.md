@@ -1,4 +1,4 @@
-# Chrome
+# Firefox
 
 - Dark Reader
 - Decentraleyes
