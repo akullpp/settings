@@ -19,12 +19,6 @@ fi
 . /usr/share/autojump/autojump.sh
 
 ###########
-# thefuck #
-###########
-
-eval $(thefuck --alias)
-
-###########
 # Aliases #
 ###########
 
