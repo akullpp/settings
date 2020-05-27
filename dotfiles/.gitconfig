@@ -42,4 +42,4 @@
 	name = Andreas Kull
 	email = andreas.kull@pm.me
 [credential]
-	helper = /usr/lib/git-core/git-credential-libsecret
+	helper = /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
