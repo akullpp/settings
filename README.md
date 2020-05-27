@@ -10,23 +10,24 @@ Kernel: 5.4.0-31-generic
 ## Content
 
 * Binaries
-  * Ubuntu
-  * Homebrew packages
-  * npm packages
   * Firefox extensions
+  * npm packages
+  * Ubuntu
 * Defaults
-  * EditorConfig
-  * gitattributes
   * AVA
+  * EditorConfig
   * ESLint node
   * ESLint react
+  * gitattributes
   * Husky
   * Prettier
 * Dotfiles
   * gitconfig
   * zpreztorc
   * zshrc
-* IntelliJ IDEA settings
+* IntelliJ IDEA
+  * Plugins
+  * Settings
 * Visual Studio Code
   * Keybindings
   * Plugins
