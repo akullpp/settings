@@ -25,3 +25,4 @@ Activation depends on the current project:
 * [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright)
 * [Terraform](https://marketplace.visualstudio.com/items?itemName=mauve.terraform)
 * [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+* [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
