@@ -54,5 +54,5 @@ cargo install exa
 # Snap
 
 ```
-sudo snap install code kubectl postman dbeaver-ce intellij-idea-ultimate --classic
+sudo snap install code kubectl postman dbeaver-ce intellij-idea-ultimate zoom-client --classic
 ```
