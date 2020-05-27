@@ -4,6 +4,14 @@
 sudo apt install bat docker docker-compose git glances httpie jq keepassxc p7zip tldr zsh curl autojump gnome-tweaks ffmpeg
 ```
 
+# libsecret
+
+```
+sudo apt install libsecret-1-0 libsecret-1-dev
+cd /usr/share/doc/git/contrib/credential/libsecret
+sudo make
+```
+
 # prezto
 
 ```
