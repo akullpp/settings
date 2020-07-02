@@ -6,6 +6,7 @@ sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfre
 
 sudo dnf install \
   akmod-nvidia \
+  awscli \
   emacs \
   bat \
   exa \
