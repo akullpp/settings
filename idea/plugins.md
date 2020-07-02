@@ -7,4 +7,3 @@
 - [PlantUML integration](https://plugins.jetbrains.com/plugin/7017-plantuml-integration)
 - [Rainbow Brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets)
 - [String Manipulation](https://plugins.jetbrains.com/plugin/2162-string-manipulation)
-- [Window Decorate Mode Switcher](https://plugins.jetbrains.com/plugin/7698-window-decorate-mode-switcher)
