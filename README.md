@@ -3,8 +3,9 @@
 ## Setup
 
 ```
-OS: Ubuntu 20.04
-Kernel: 5.4.0-31-generic
+OS: Fedora 32
+DE: Gnome
+Kernel: 5.6.19-300.fc32.x86_64
 ```
 
 ## Content
@@ -12,7 +13,7 @@ Kernel: 5.4.0-31-generic
 * Binaries
   * Firefox extensions
   * npm packages
-  * Ubuntu
+  * Fedora setup
 * Defaults
   * AVA
   * EditorConfig
