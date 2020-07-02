@@ -9,8 +9,7 @@ sudo dnf install \
   emacs \
   bat \
   exa \
-  docker \
-  docker-compose \
+  podman-compose \
   git \
   git-credential-libsecret \
   glances \
