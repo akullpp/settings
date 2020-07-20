@@ -1,13 +1,15 @@
 # Firefox
 
-- Dark Reader
-- Decentraleyes
-- Hacker News Enhancement Suite
-- I don't care about cookies
-- Imagus
-- KeePassXC-Browser
-- Momentum
-- Reddit Enhancement Suite
-- Startpage.com — Private Search Engine
-- uBlock Origin
-- Zoom Scheduler
+- [ClearURLs](https://addons.mozilla.org/firefox/addon/clearurls/)
+- [ColorZilla](https://addons.mozilla.org/firefox/addon/colorzilla/)
+- [Dark Reader](https://addons.mozilla.org/firefox/addon/darkreader/)
+- [Decentraleyes](https://addons.mozilla.org/firefox/addon/decentraleyes/)
+- [GNOME Shell-Integration](https://addons.mozilla.org/firefox/addon/gnome-shell-integration/)
+- [I don't care about cookies](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/)
+- [Imagus](https://addons.mozilla.org/firefox/addon/imagus/)
+- [KeePassXC-Browser](https://addons.mozilla.org/firefox/addon/keepassxc-browser/)
+- [Reddit Enhancement Suite](https://addons.mozilla.org/firefox/addon/reddit-enhancement-suite/)
+- [Refined Hacker News](https://addons.mozilla.org/firefox/addon/refined-hacker-news/)
+- [Tabliss](https://addons.mozilla.org/firefox/addon/tabliss/)
+- [uBlock Origin](https://addons.mozilla.org/firefox/addon/ublock-origin/)
+- [Zoom Scheduler](https://addons.mozilla.org/firefox/addon/zoom-new-scheduler/)
