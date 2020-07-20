@@ -62,6 +62,7 @@ asdf plugin add gradle
 asdf plugin add maven
 asdf plugin add nodejs
 asdf plugin add golang
+asdf plugin add rust
 
 bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 ```
