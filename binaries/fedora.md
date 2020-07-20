@@ -18,8 +18,8 @@ sudo dnf install awscli bat exa git git-credential-libsecret glances httpie jq k
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
-sudo http get https://raw.githubusercontent.com/akullpp/settings/master/dotfiles/kubernetes.repo > /etc/yum.repos.d/kubernetes.repo
+sudo http get https://raw.githubusercontent.com/akullpp/settings/master/binaries/vscode.repo > /etc/yum.repos.d/vscode.repo
+sudo http get https://raw.githubusercontent.com/akullpp/settings/master/binaries/kubernetes.repo > /etc/yum.repos.d/kubernetes.repo
 ```
 
 4. Install extended dependencies
@@ -29,8 +29,6 @@ sudo dnf install akmod-nvidia code ffmpeg mpv
 ```
 
 # prezto
-
-1. Setup
 
 ```
 zsh
