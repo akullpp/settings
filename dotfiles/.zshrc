@@ -16,7 +16,7 @@ fi
 # autojump #
 ############
 
-. /usr/share/autojump/autojump.sh
+. /usr/share/autojump/autojump.zsh
 
 ###########
 # Aliases #
