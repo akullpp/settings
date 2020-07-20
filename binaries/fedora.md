@@ -9,7 +9,7 @@ sudo dnf upgrade
 2. Install base dependencies
 
 ```
-sudo dnf install awscli bat exa git git-credential-libsecret glances httpie jq keepassxc p7zip tldr zsh curl autojump-zsh gnome-tweaks vim util-linux-user
+sudo dnf install awscli bat exa git git-credential-libsecret glances httpie jq keepassxc p7zip tldr zsh curl autojump-zsh gnome-tweaks micro xclip util-linux-user
 ```
 
 3. Set up repositories
