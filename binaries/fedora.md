@@ -15,6 +15,7 @@ sudo dnf install awscli bat exa git git-credential-libsecret glances httpie jq k
 3. Set up repositories
 
 ```
+sudo dnf copr enable atim/lazygit -y
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
@@ -25,7 +26,7 @@ sudo http get https://raw.githubusercontent.com/akullpp/settings/master/binaries
 4. Install extended dependencies
 
 ```
-sudo dnf install akmod-nvidia code ffmpeg mpv
+sudo dnf install akmod-nvidia code ffmpeg mpv lazygit texlive-scheme-full ImageMagick
 ```
 
 # prezto
