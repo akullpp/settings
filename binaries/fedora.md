@@ -19,8 +19,8 @@ sudo dnf copr enable atim/lazygit -y
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-sudo http get https://raw.githubusercontent.com/akullpp/settings/master/binaries/vscode.repo > /etc/yum.repos.d/vscode.repo
-sudo http get https://raw.githubusercontent.com/akullpp/settings/master/binaries/kubernetes.repo > /etc/yum.repos.d/kubernetes.repo
+sudo sh -c 'http get https://raw.githubusercontent.com/akullpp/settings/master/binaries/vscode.repo > /etc/yum.repos.d/vscode.repo'
+sudo sh -c 'http get https://raw.githubusercontent.com/akullpp/settings/master/binaries/kubernetes.repo > /etc/yum.repos.d/kubernetes.repo'
 ```
 
 4. Install extended dependencies
