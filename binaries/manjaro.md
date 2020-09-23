@@ -1,7 +1,7 @@
 # Pamac
 
 ```
-pamac install dbeaver aws-cli bat exa glances httpie jq keepassxc tldr micro
+pamac install dbeaver aws-cli bat exa glances httpie jq keepassxc tldr micro kubectl
 pamac build autojump intellij-idea-ultimate-edition lens-bin zoom
 ```
 
