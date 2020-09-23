@@ -13,7 +13,7 @@ Kernel: 5.8.6
 * Binaries
   * Firefox extensions
   * npm packages
-  * Fedora setup
+  * Manjaro setup
 * Defaults
   * AVA
   * EditorConfig
