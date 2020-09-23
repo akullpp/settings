@@ -3,9 +3,9 @@
 ## Setup
 
 ```
-OS: Fedora 32
-DE: Gnome
-Kernel: 5.7.8-200.fc32.x86_64
+OS: Manjaro
+DE: XFCE
+Kernel: 5.8.6
 ```
 
 ## Content
