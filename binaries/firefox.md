@@ -4,7 +4,6 @@
 - [ColorZilla](https://addons.mozilla.org/firefox/addon/colorzilla/)
 - [Dark Reader](https://addons.mozilla.org/firefox/addon/darkreader/)
 - [Decentraleyes](https://addons.mozilla.org/firefox/addon/decentraleyes/)
-- [GNOME Shell-Integration](https://addons.mozilla.org/firefox/addon/gnome-shell-integration/)
 - [I don't care about cookies](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/)
 - [Imagus](https://addons.mozilla.org/firefox/addon/imagus/)
 - [KeePassXC-Browser](https://addons.mozilla.org/firefox/addon/keepassxc-browser/)
