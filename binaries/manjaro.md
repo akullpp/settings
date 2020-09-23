@@ -1,8 +1,16 @@
 # Pamac
 
 ```
-pamac install dbeaver aws-cli bat exa glances httpie jq keepassxc tldr micro kubectl
+pamac install dbeaver aws-cli bat exa glances httpie jq keepassxc tldr micro kubectl docker docker-compose
 pamac build autojump intellij-idea-ultimate-edition lens-bin zoom visual-studio-code-bin
+```
+
+# Docker
+
+```
+sudo systemctl start docker.service
+sudo systemctl enable docker.service
+sudo usermod -aG docker $USER
 ```
 
 # prezto
