@@ -1,4 +1,6 @@
 "prettier": {
+  "arrowParens": "avoid",
+  "quoteProps": "consistent",
   "semi": false,
   "singleQuote": true,
   "trailingComma": "all"
