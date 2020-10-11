@@ -3,7 +3,7 @@
 ##########
 
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-	source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+    source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
 ########
@@ -33,4 +33,5 @@ alias editorconfig='http get https://raw.githubusercontent.com/akullpp/settings/
 # Run #
 #######
 
+source /etc/profile.d/vte.sh
 ll
