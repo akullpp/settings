@@ -1,43 +1,41 @@
 [alias]
-	ap = !git add . && git commit --amend --no-edit && git push -f
-	st = status
-	stash = stash -u -k
-	undo = reset --soft HEAD^
-	all = "!f() { ls -R -d */.git | xargs -I{} bash -c \"echo {} && git -C {}/../ $1\"; }; f"
+    ap = !git add . && git commit --amend --no-edit && git push -f
+    st = status
+    stash = stash -u -k
+    undo = reset --soft HEAD^
+    all = "!f() { ls -R -d */.git | xargs -I{} bash -c \"echo {} && git -C {}/../ $1\"; }; f"
 [core]
-	pager = diff-so-fancy | less --tabs=4 -RFX
-	editor = code --wait
-	autocrlf = input
-	ignorecase = false
+    pager = diff-so-fancy | less --tabs=4 -RFX
+    editor = code --wait
+    autocrlf = input
+    ignorecase = false
 [color]
-	ui = true
+    ui = true
 [color "diff-highlight"]
-	oldNormal = red bold
-	oldHighlight = red bold 52
-	newNormal = green bold
-	newHighlight = green bold 22
+    oldNormal = red bold
+    oldHighlight = red bold 52
+    newNormal = green bold
+    newHighlight = green bold 22
 [color "diff"]
-	meta = yellow
-	frag = magenta bold
-	commit = yellow bold
-	old = red bold
-	new = green bold
-	whitespace = red reverse
+    meta = yellow
+    frag = magenta bold
+    commit = yellow bold
+    old = red bold
+    new = green bold
+    whitespace = red reverse
 [log]
-	decorate = full
+    decorate = full
 [pull]
-	rebase = true
+    rebase = true
 [push]
-	default = simple
-	followTags = true
+    default = simple
+    followTags = true
 [rebase]
-	autostash = true
+    autostash = true
 [status]
-	showUntrackedFiles = all
+    showUntrackedFiles = all
 [stash]
-	showPatch = true
+    showPatch = true
 [user]
-	name = Andreas Kull
-	email = andreas.kull@pm.me
-[credential]
-	helper = /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
+    name = Andreas Kull
+    email = andreas.kull@leaflogistics.com
