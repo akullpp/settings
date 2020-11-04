@@ -1,7 +1,7 @@
 # Pamac
 
 ```
-pamac install dbeaver aws-cli bat exa glances httpie jq keepassxc tldr micro kubectl docker docker-compose
+pamac install firefox-developer-edition mpv redshift transmission dbeaver aws-cli bat exa glances httpie jq keepassxc tldr micro kubectl docker docker-compose
 pamac build autojump intellij-idea-ultimate-edition lens-bin zoom visual-studio-code-bin
 ```
 
