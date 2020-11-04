@@ -4,8 +4,7 @@
 
 ```
 OS: Manjaro
-DE: XFCE
-Kernel: 5.8.6
+DE: Gnome
 ```
 
 ## Content
