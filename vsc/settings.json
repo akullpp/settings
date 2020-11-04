@@ -50,17 +50,37 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "spellright.documentTypes": [
-    "plaintext",
-    "markdown",
-    "latex"
-  ],
+  "spellright.documentTypes": ["plaintext", "markdown", "latex"],
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.menuBarVisibility": "hidden",
+  "window.zoomLevel": 0,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Monokai Pro",
+  "workbench.colorTheme": "One Monokai",
   "workbench.editor.enablePreview": false,
   "workbench.editor.limit.enabled": true,
-  "workbench.iconTheme": "Monokai Pro Icons",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.visible": false
+  "workbench.statusBar.visible": true,
+  "editor.suggestSelection": "first",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "vscode.markdown.preview.editor",
+      "filenamePattern": "*.md"
+    }
+  ],
+  "editor.wordWrapColumn": 120,
+  "sync.gist": "2588c9b9b5f9841772f66b6b6c724374",
+  "go.autocompleteUnimportedPackages": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.renameOnType": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
 }
