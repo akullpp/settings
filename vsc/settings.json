@@ -1,4 +1,55 @@
 {
+  "editor.fontFamily": "Operator Mono Lig",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.wordWrap": "on",
+  "editor.suggestSelection": "first",
+  "editor.renameOnType": true,
+  "editor.wordWrapColumn": 120,
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 0,
+  "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.menuBarVisibility": "hidden",
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": true,
+  "workbench.colorTheme": "One Monokai",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.limit.enabled": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.statusBar.visible": true,
+  "workbench.editorAssociations": [
+    {
+      "viewType": "vscode.markdown.preview.editor",
+      "filenamePattern": "*.md"
+    }
+  ],
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
   "cSpell.enabledLanguageIds": [
     "asciidoc",
     "c",
@@ -29,58 +80,8 @@
     "yaml",
     "yml"
   ],
-  "editor.fontFamily": "Operator Mono Lig",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 16,
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.minimap.enabled": false,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.snippetSuggestions": "top",
-  "editor.wordWrap": "on",
-  "emmet.triggerExpansionOnTab": true,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.openEditors.visible": 0,
-  "extensions.ignoreRecommendations": true,
-  "files.associations": {
-    "*.js": "javascriptreact"
-  },
-  "files.autoSave": "onFocusChange",
-  "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "spellright.documentTypes": ["plaintext", "markdown", "latex"],
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "window.menuBarVisibility": "hidden",
-  "window.zoomLevel": 0,
-  "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "One Monokai",
-  "workbench.editor.enablePreview": false,
-  "workbench.editor.limit.enabled": true,
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.visible": true,
-  "editor.suggestSelection": "first",
-  "workbench.editorAssociations": [
-    {
-      "viewType": "vscode.markdown.preview.editor",
-      "filenamePattern": "*.md"
-    }
-  ],
-  "editor.wordWrapColumn": 120,
-  "sync.gist": "2588c9b9b5f9841772f66b6b6c724374",
   "go.autocompleteUnimportedPackages": true,
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.renameOnType": true,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  }
+  "go.testFlags": ["-v", "-failfast"],
+  "gitlens.keymap": "none",
+  "spellright.documentTypes": ["plaintext", "markdown", "latex"]
 }
