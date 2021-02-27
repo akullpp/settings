@@ -28,7 +28,7 @@ alias cat='bat'
 alias man='tldr'
 alias top='glances'
 alias editorconfig='http get https://raw.githubusercontent.com/akullpp/settings/master/defaults/.editorconfig > .editorconfig'
-alias lazygit='lg'
+alias lg='lazygit'
 
 #######
 # Run #
