@@ -3,6 +3,7 @@
     st = status
     stash = stash -u -k
     undo = reset --soft HEAD^
+    dev = "!f() { git checkout development -- $1; }; f"
     all = "!f() { ls -R -d */.git | xargs -I{} bash -c \"echo {} && git -C {}/../ $1\"; }; f"
 [core]
     pager = diff-so-fancy | less --tabs=4 -RFX
@@ -39,3 +40,5 @@
 [user]
     name = Andreas Kull
     email = andreas.kull@pm.me
+[credential]
+    helper = store
