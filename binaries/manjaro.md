@@ -1,8 +1,8 @@
 # Pamac
 
 ```
-pamac install firefox-developer-edition mpv redshift transmission dbeaver aws-cli bat exa glances httpie jq keepassxc tldr micro kubectl docker docker-compose
-pamac build autojump intellij-idea-ultimate-edition lens-bin zoom visual-studio-code-bin
+pamac install brave mpv transmission dbeaver aws-cli bat exa glances httpie jq keepassxc tldr micro kubectl docker docker-compose calibre
+pamac build autojump google-chrome lens-bin zoom visual-studio-code-bin brother-hll2340dw archiver dropbox
 ```
 
 # Docker
