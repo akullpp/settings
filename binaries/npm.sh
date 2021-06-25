@@ -1,3 +1,3 @@
 #!/bin/sh
 
-npm i -g npm pnpm diff-so-fancy npm-check-updates create-react-app yo
+npm i -g npm pnpm npm-check-updates create-react-app
