@@ -1,20 +1,20 @@
 [alias]
-	ap = !git add . && git commit --amend --no-edit && git push -f
-	st = status
-	log = log --oneline
-	stash = stash -u -k
-	undo = reset --soft HEAD^
-	dev = "!f() { git checkout development -- $1; }; f"
-	all = "!f() { ls -R -d */.git | xargs -I{} bash -c \"echo {} && git -C {}/../ $1\"; }; f"
-	back = "checkout -"
+    ap = !git add . && git commit --amend --no-edit && git push -f
+    st = status
+    log = log --oneline
+    stash = stash -u -k
+    undo = reset --soft HEAD^
+    dev = "!f() { git checkout development -- $1; }; f"
+    all = "!f() { ls -R -d */.git | xargs -I{} bash -c \"echo {} && git -C {}/../ $1\"; }; f"
+    back = "checkout -"
 [core]
-	editor = code --wait
-	autocrlf = input
-	ignorecase = false
+    editor = code --wait
+    autocrlf = input
+    ignorecase = false
 [color]
-	ui = true
+    ui = true
 [credential]
-	helper = store
+    helper = store
 [delta]
     features = diff-so-fancy hyperlinks line-numbers decorations
     whitespace-error-style = 22 reverse
@@ -23,29 +23,31 @@
     file-style = bold yellow ul
     file-decoration-style = none
 [format]
-	pretty = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
+    pretty = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
 [interactive]
     diffFilter = delta --color-only
 [init]
-	defaultBranch = development
+    defaultBranch = development
 [log]
-	decorate = full
+    decorate = full
 [pager]
     diff = delta
     log = delta
     reflog = delta
     show = delta
 [pull]
-	rebase = true
+    rebase = true
 [push]
-	default = simple
-	followTags = true
+    default = simple
+    followTags = true
 [rebase]
-	autostash = true
+    autostash = true
 [status]
-	showUntrackedFiles = all
+    showUntrackedFiles = all
 [stash]
-	showPatch = true
+    showPatch = true
 [user]
-	name = Andreas Kull
-	email = andreas.kull@pm.me
+    name = Andreas Kull
+    email = andreas.kull@leaflogistics.com
+[url "ssh://git@bitbucket.org/leaflogistics"]
+    insteadOf = https://bitbucket.org/leaflogistics
