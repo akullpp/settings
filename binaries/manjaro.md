@@ -1,7 +1,45 @@
 # Pamac
 
 ```
-pamac install aws-cli-v2-bin brave bat calibre chromium dbeaver docker docker-compose duf exa fd fzf glances httpie jq keepassxc kubectl lazygit micro mpv procs sd tldr transmission-gtk archiver bloomrpc brother-hll2340dw brscan5 dive git-delta-bin insomnia lens-bin mullvad-vpn steam-native spotify visual-studio-code-bin zoom zoxide
+pamac install \
+  archiver \
+  aws-cli-v2-bin \
+  bat \
+  bloomrpc \
+  brave \
+  brother-hll2340dw \
+  brscan5 \
+  calibre \
+  chromium \
+  dbeaver \
+  dive \
+  docker \
+  docker-compose \
+  duf \
+  exa \
+  fd \
+  fzf \
+  git-delta-bin \
+  glances \
+  httpie \
+  insomnia \
+  jq \
+  keepassxc \
+  kubectl \
+  lazygit \
+  lens-bin \
+  micro \
+  mpv \
+  mullvad-vpn \
+  procs \
+  sd \
+  spotify \
+  steam-native \
+  tldr \
+  transmission-gtk \
+  visual-studio-code-bin \
+  zoom \
+  zoxide
 ```
 
 # Docker
