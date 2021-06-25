@@ -1,8 +1,7 @@
 # Pamac
 
 ```
-pamac install brave mpv transmission dbeaver aws-cli bat exa glances httpie jq keepassxc tldr micro kubectl docker docker-compose calibre
-pamac build autojump google-chrome lens-bin zoom visual-studio-code-bin brother-hll2340dw archiver dropbox
+pamac install aws-cli-v2-bin brave bat calibre chromium dbeaver docker docker-compose duf exa fd fzf glances httpie jq keepassxc kubectl lazygit micro mpv procs sd tldr transmission-gtk archiver bloomrpc brother-hll2340dw brscan5 dive git-delta-bin insomnia lens-bin mullvad-vpn steam-native spotify visual-studio-code-bin zoom zoxide
 ```
 
 # Docker
