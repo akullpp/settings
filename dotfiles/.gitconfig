@@ -1,44 +1,51 @@
 [alias]
-    ap = !git add . && git commit --amend --no-edit && git push -f
-    st = status
-    stash = stash -u -k
-    undo = reset --soft HEAD^
-    dev = "!f() { git checkout development -- $1; }; f"
-    all = "!f() { ls -R -d */.git | xargs -I{} bash -c \"echo {} && git -C {}/../ $1\"; }; f"
+	ap = !git add . && git commit --amend --no-edit && git push -f
+	st = status
+	log = log --oneline
+	stash = stash -u -k
+	undo = reset --soft HEAD^
+	dev = "!f() { git checkout development -- $1; }; f"
+	all = "!f() { ls -R -d */.git | xargs -I{} bash -c \"echo {} && git -C {}/../ $1\"; }; f"
+	back = "checkout -"
 [core]
-    pager = diff-so-fancy | less --tabs=4 -RFX
-    editor = code --wait
-    autocrlf = input
-    ignorecase = false
+	editor = code --wait
+	autocrlf = input
+	ignorecase = false
 [color]
-    ui = true
-[color "diff-highlight"]
-    oldNormal = red bold
-    oldHighlight = red bold 52
-    newNormal = green bold
-    newHighlight = green bold 22
-[color "diff"]
-    meta = yellow
-    frag = magenta bold
-    commit = yellow bold
-    old = red bold
-    new = green bold
-    whitespace = red reverse
+	ui = true
 [log]
-    decorate = full
+	decorate = full
 [pull]
-    rebase = true
+	rebase = true
 [push]
-    default = simple
-    followTags = true
+	default = simple
+	followTags = true
 [rebase]
-    autostash = true
+	autostash = true
 [status]
-    showUntrackedFiles = all
+	showUntrackedFiles = all
 [stash]
-    showPatch = true
+	showPatch = true
 [user]
-    name = Andreas Kull
-    email = andreas.kull@pm.me
+	name = Andreas Kull
+	email = andreas.kull@pm.me
 [credential]
-    helper = store
+	helper = store
+[init]
+	defaultBranch = main
+[format]
+	pretty = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
+[pager]
+    diff = delta
+    log = delta
+    reflog = delta
+    show = delta
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+    features = diff-so-fancy hyperlinks line-numbers decorations
+    whitespace-error-style = 22 reverse
+[delta "decorations"]
+    commit-decoration-style = bold yellow box ul
+    file-style = bold yellow ul
+    file-decoration-style = none
