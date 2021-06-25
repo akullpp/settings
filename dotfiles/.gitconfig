@@ -48,6 +48,4 @@
     showPatch = true
 [user]
     name = Andreas Kull
-    email = andreas.kull@leaflogistics.com
-[url "ssh://git@bitbucket.org/leaflogistics"]
-    insteadOf = https://bitbucket.org/leaflogistics
+    email = andreas.kull@pm.me
