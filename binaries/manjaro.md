@@ -86,3 +86,10 @@ asdf plugin add golang
 
 bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 ```
+
+# Misc
+
+```
+pip install poetry
+npm i -g npm npm-check-updates create-react-app
+```
