@@ -30,16 +30,22 @@ pamac install \
   lens-bin \
   micro \
   vlc \
-  mullvad-vpn \
   procs \
   sd \
-  spotify \
   steam-native \
   tldr \
   transmission-gtk \
   visual-studio-code-bin \
   zoom \
   zoxide
+```
+
+```
+pamac install spotify
+```
+
+```
+pamac install mullvad-vpn
 ```
 
 # Docker
@@ -90,6 +96,7 @@ bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 # Misc
 
 ```
+python -m pip install --upgrade pip
 pip install poetry
 npm i -g npm npm-check-updates create-react-app
 ```
