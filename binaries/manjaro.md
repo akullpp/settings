@@ -10,7 +10,7 @@ pamac install \
   archiver \
   aws-cli-v2-bin \
   bat \
-  bloomrpc \
+  bloomrpc-bin \
   brave-browser \
   calibre \
   dbeaver \
