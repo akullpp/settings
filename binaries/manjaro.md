@@ -21,7 +21,7 @@ pamac install \
   exa \
   fd \
   fzf \
-  git-delta-bin \
+  git-delta \
   glances \
   httpie \
   insomnia-bin \
