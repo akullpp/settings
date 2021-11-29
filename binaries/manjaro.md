@@ -30,6 +30,7 @@ pamac install \
   lens-bin \
   micro \
   vlc \
+  postgresql \
   procs \
   sd \
   steam-native \
