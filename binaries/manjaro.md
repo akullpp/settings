@@ -98,6 +98,6 @@ bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 
 ```
 python -m pip install --upgrade pip
-pip install poetry
+curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
 npm i -g npm npm-check-updates create-react-app
 ```
