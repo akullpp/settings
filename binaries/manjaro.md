@@ -32,7 +32,7 @@ pamac install \
   lazygit \
   lens-bin \
   micro \
-  mpv \
+  vlc \
   mullvad-vpn \
   procs \
   sd \
