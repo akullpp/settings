@@ -1,16 +1,18 @@
 # Pamac
 
+Pre-requisites:
+
+* JDK17 via asdf
+* Enable AUR support in pamac
+
 ```
 pamac install \
   archiver \
   aws-cli-v2-bin \
   bat \
   bloomrpc \
-  brave \
-  brother-hll2340dw \
-  brscan5 \
+  brave-browser \
   calibre \
-  chromium \
   dbeaver \
   dive \
   docker \
@@ -22,7 +24,8 @@ pamac install \
   git-delta-bin \
   glances \
   httpie \
-  insomnia \
+  insomnia-bin \
+  intellij-idea-ultimate-edition \
   jq \
   keepassxc \
   kubectl \
@@ -80,7 +83,7 @@ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.7.8
 source ~/.zshrc
 
 asdf plugin add java
-asdf plugin add gradle
+asdf plugin add python
 asdf plugin add nodejs
 asdf plugin add golang
 
