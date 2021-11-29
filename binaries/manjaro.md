@@ -1,9 +1,6 @@
 # Pamac
 
-Pre-requisites:
-
-* JDK17 via asdf
-* Enable AUR support in pamac
+Enable AUR support in pamac: Add/Remove Software > Settings > Preferences > Third Party > Enable AUR support
 
 ```
 pamac install \
