@@ -1,9 +1,0 @@
-"ava": {
-  "require": [
-    "esm"
-  ],
-  "files": [
-    "test/**/*",
-    "!test/helpers/**/*"
-  ]
-},
