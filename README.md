@@ -1,30 +1,16 @@
 # Settings
 
-## Setup
-
-```
-OS: Manjaro
-DE: Gnome
-```
-
-## Content
-
-* Binaries
-  * Firefox extensions
-  * npm packages
-  * Manjaro setup
 * Defaults
-  * AVA
   * EditorConfig
-  * ESLint node
-  * ESLint react
-  * gitattributes
-  * Husky
+  * ESLint
+  * Git attributes
+  * lint-staged
   * Prettier
 * Dotfiles
-  * gitconfig
-  * zpreztorc
-  * zshrc
+  * .gitconfig
+  * .wezterm.lua
+  * .zpreztorc
+  * .zshrc
 * IntelliJ IDEA
   * Plugins
   * Settings
