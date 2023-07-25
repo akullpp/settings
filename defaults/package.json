@@ -1,8 +1,0 @@
-{
-  "name": "leaf",
-  "version": "0.0.1",
-  "main": "dist/index.js",
-  "scripts": {
-    "start": "npx nodemon -x 'npx yalc push' & npx tsc -w --allowSyntheticDefaultImports --outDir dist -m ESNext -t es5 --lib es6,dom,dom.iterable,esnext --sourcemap --jsx react --moduleResolution Node --skipLibCheck --resolveJsonModule index.ts"
-  }
-}
