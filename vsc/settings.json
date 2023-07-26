@@ -149,7 +149,7 @@
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.limit.enabled": true,
   "workbench.fontAliasing": "antialiased",
-  "workbench.productIconTheme": "icons-carbon",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.visible": true,
   "workbench.tree.indent": 10
