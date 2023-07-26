@@ -1,26 +1,36 @@
 # Plugins
 
-Activation depends on the current project:
-
-* [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-* [Babel JavaScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel)
-* [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
-* [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-* [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)
-* [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=editorconfig.editorconfig)
-* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-* [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-* [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go)
-* [HashiCorp Terraform](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform)
-* [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
-* [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-* [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
-* [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
-* [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
-* [One Monokai Theme](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
-* [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-* [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-* [Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)
-* [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright)
-* [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
-* [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+* ban.spellright
+* christian-kohler.npm-intellisense
+* christian-kohler.path-intellisense
+* DavidAnson.vscode-markdownlint
+* dbaeumer.vscode-eslint
+* eamodio.gitlens
+* EditorConfig.EditorConfig
+* esbenp.prettier-vscode
+* formulahendry.auto-rename-tag
+* GitHub.copilot
+* golang.go
+* GraphQL.vscode-graphql
+* GraphQL.vscode-graphql-syntax
+* James-Yu.latex-workshop
+* mechatroner.rainbow-csv
+* meganrogge.template-string-converter
+* mgmcdermott.vscode-language-babel
+* midnightsyntax.vscode-wrap-console-log
+* mikestead.dotenv
+* mquandalle.graphql
+* ms-vscode.hexeditor
+* ms-vsliveshare.vsliveshare
+* naumovs.color-highlight
+* patbenatar.advanced-new-file
+* PKief.material-icon-theme
+* pnp.polacode
+* sainnhe.sonokai
+* sleistner.vscode-fileutils
+* steoates.autoimport
+* streetsidesoftware.code-spell-checker
+* svelte.svelte-vscode
+* Tyriar.sort-lines
+* usernamehw.errorlens
+* yzhang.markdown-all-in-one
