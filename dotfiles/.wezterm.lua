@@ -7,10 +7,7 @@ if wezterm.config_builder then
 end
 
 config.color_scheme = 'Monokai Pro Ristretto (Gogh)'
-config.font = wezterm.font {
-    family = 'Operator Mono Lig',
-    bold = true,
-}
+config.font = wezterm.font('Operator Mono Lig')
 config.font_size = 14
 
 return config
