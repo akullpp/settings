@@ -11,9 +11,6 @@
   * .wezterm.lua
   * .zpreztorc
   * .zshrc
-* IntelliJ IDEA
-  * Plugins
-  * Settings
 * Visual Studio Code
   * Keybindings
   * Plugins
