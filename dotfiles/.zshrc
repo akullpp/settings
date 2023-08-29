@@ -34,7 +34,7 @@ alias grep='rg'
 alias ps='procs'
 alias cd='z'
 alias v='nvim'
-alias g='lazygit'
+alias g='gitui'
 
 alias editorconfig='http get https://raw.githubusercontent.com/akullpp/settings/master/defaults/.editorconfig > .editorconfig'
 alias gitattributes='http get https://raw.githubusercontent.com/akullpp/settings/master/defaults/.gitattributes > .gitattributes'
