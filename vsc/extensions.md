@@ -65,7 +65,7 @@
 [ms-vscode.hexeditor](https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor)
 
 [ms-vsliveshare.vsliveshare](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare)
-[
+
 [naumovs.color-highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 
 [njqdev.vscode-python-typehint](https://marketplace.visualstudio.com/items?itemName=njqdev.vscode-python-typehint)
