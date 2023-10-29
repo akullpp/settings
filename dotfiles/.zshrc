@@ -33,8 +33,9 @@ alias top='glances'
 alias grep='rg'
 alias ps='procs'
 alias cd='z'
-alias v='nvim'
 alias g='gitui'
+alias st='git st'
+alias check='shellcheck'
 
 alias editorconfig='http get https://raw.githubusercontent.com/akullpp/settings/master/defaults/.editorconfig > .editorconfig'
 alias gitattributes='http get https://raw.githubusercontent.com/akullpp/settings/master/defaults/.gitattributes > .gitattributes'
@@ -46,4 +47,12 @@ alias prettierrc='http get https://raw.githubusercontent.com/akullpp/settings/ma
 #######
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
+export PATH="$(go env GOPATH)/bin:/Library/TeX/texbin/:/Users/akull/.local/bin:$HOME/.poetry/bin"
+export AWS_PROFILE=
+export HASURA_ADMIN_SECRET=
+export PNPM_HOME="/Users/akull/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
 ll
