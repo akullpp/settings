@@ -47,7 +47,7 @@ alias prettierrc='http get https://raw.githubusercontent.com/akullpp/settings/ma
 #######
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
-export PATH="$(go env GOPATH)/bin:/Library/TeX/texbin/:/Users/akull/.local/bin:$HOME/.poetry/bin"
+export PATH="$(go env GOPATH)/bin:/Library/TeX/texbin/:$HOME/.poetry/bin:$PATH"
 export AWS_PROFILE=
 export HASURA_ADMIN_SECRET=
 export PNPM_HOME="/Users/akull/Library/pnpm"
