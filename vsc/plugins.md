@@ -1,77 +1,99 @@
 # Plugins
 
-ban.spellright
+- a-h.templ
 
-christian-kohler.npm-intellisense
+- aaron-bond.better-comments
 
-christian-kohler.path-intellisense
+- almenon.arepl
 
-DavidAnson.vscode-markdownlint
+- AykutSarac.jsoncrack-vscode
 
-dbaeumer.vscode-eslint
+- ban.spellright
 
-eamodio.gitlens
+- bradlc.vscode-tailwindcss
 
-EditorConfig.EditorConfig
+- charliermarsh.ruff
 
-esbenp.prettier-vscode
+- christian-kohler.npm-intellisense
 
-formulahendry.auto-rename-tag
+- christian-kohler.path-intellisense
 
-GitHub.copilot
+- DavidAnson.vscode-markdownlint
 
-golang.go
+- dbaeumer.vscode-eslint
 
-GraphQL.vscode-graphql
+- donjayamanne.python-extension-pack
 
-GraphQL.vscode-graphql-syntax
+- eamodio.gitlens
 
-humao.rest-client
+- EditorConfig.EditorConfig
 
-James-Yu.latex-workshop
+- esbenp.prettier-vscode
 
-mechatroner.rainbow-csv
+- formulahendry.auto-rename-tag
 
-meganrogge.template-string-converter
+- GitHub.copilot
 
-mgmcdermott.vscode-language-babel
+- GitHub.copilot-chat
 
-midnightsyntax.vscode-wrap-console-log
+- golang.go
 
-mikestead.dotenv
+- GraphQL.vscode-graphql
 
-mquandalle.graphql
+- GraphQL.vscode-graphql-syntax
 
-ms-vscode.hexeditor
+- humao.rest-client
 
-ms-vsliveshare.vsliveshare
+- James-Yu.latex-workshop
 
-naumovs.color-highlight
+- KevinRose.vsc-python-indent
 
-patbenatar.advanced-new-file
+- lenagain.latexindent
 
-paulshen.paul-typescript-toolkit
+- mechatroner.rainbow-csv
 
-PKief.material-icon-theme
+- meganrogge.template-string-converter
 
-pnp.polacode
+- mgmcdermott.vscode-language-babel
 
-sainnhe.sonokai
+- mikestead.dotenv
 
-sleistner.vscode-fileutils
+- ms-python.python
 
-steoates.autoimport
+- ms-python.vscode-pylance
 
-streetsidesoftware.code-spell-checker
+- ms-vscode.hexeditor
 
-styled-components.vscode-styled-components
+- ms-vsliveshare.vsliveshare
+- 
+- naumovs.color-highlight
 
-svelte.svelte-vscode
+- njqdev.vscode-python-typehint
 
-Tyriar.sort-lines
+- patbenatar.advanced-new-file
 
-usernamehw.errorlens
+- PKief.material-icon-theme
 
-yoavbls.pretty-ts-errors
+- sainnhe.sonokai
 
-yzhang.markdown-all-in-one
+- sleistner.vscode-fileutils
+
+- steoates.autoimport
+
+- streetsidesoftware.code-spell-checker
+
+- styled-components.vscode-styled-components
+
+- svelte.svelte-vscode
+
+- usernamehw.errorlens
+
+- VisualStudioExptTeam.vscodeintellicode
+
+- vscodevim.vim
+
+- yoavbls.pretty-ts-errors
+
+- yzhang.markdown-all-in-one
+
+- ZixuanChen.vitest-explorer
