@@ -3,7 +3,7 @@
 ##########
 
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-	source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
 ##########
@@ -24,15 +24,16 @@ bindkey "^[[1;3D" backward-word
 ###########
 
 alias df='duf'
-alias ls='exa'
-alias ll='exa -l'
+alias ls='eza'
+alias ll='eza -l'
 alias cat='bat'
-alias cap='bat --plain --paging=never'
+alias cap='bat -p'
 alias man='tldr'
 alias top='glances'
 alias grep='rg'
 alias ps='procs'
 alias cd='z'
+alias v='nvim'
 alias g='gitui'
 alias gs='git st'
 alias gp='git pull'
@@ -44,13 +45,17 @@ alias gitattributes='http get https://raw.githubusercontent.com/akullpp/settings
 alias linstagedrc='http get https://raw.githubusercontent.com/akullpp/settings/master/defaults/.lintstagedrc > .lintstagedrc'
 alias prettierrc='http get https://raw.githubusercontent.com/akullpp/settings/master/defaults/.prettierrc > .prettierrc'
 
+###############
+# Environment #
+###############
+
+export AWS_PROFILE=""
+export AWS_ACCESS_KEY_ID=""
+export AWS_SECRET_ACCESS_KEY=""
+
 #######
 # Run #
 #######
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
-export PNPM_HOME="$HOME/Library/pnpm"
-export PATH="$PNPM_HOME:$(go env GOPATH)/bin:/Library/TeX/texbin/:$HOME/.poetry/bin:$PATH"
-export AWS_PROFILE=
-export HASURA_ADMIN_SECRET=
 ll
