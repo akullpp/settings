@@ -1,10 +1,15 @@
 zstyle ':prezto:*:*' color 'yes'
 
 zstyle ':prezto:load' pmodule \
+  'environment' \
+  'directory' \
   'git' \
   'terminal' \
   'history' \
   'spectrum' \
+  'osx' \
+  'utility' \
+  'archive' \
   'completion' \
   'syntax-highlighting' \
   'history-substring-search' \
