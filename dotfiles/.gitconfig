@@ -1,57 +1,118 @@
+[advice]
+    detachedHead = false
+    statusAheadBehind = true
+    statusHints = true
+
 [alias]
-    p = "!git checkout production && git pull"
-    m = "!git checkout master && git pull"
-    ap = !git add . && git commit --amend --no-edit && git push -f
-    s = status
+    all = "!f() { ls -R -d */.git | xargs -I{} bash -c \"echo {} && git -C {}/../ $1\"; }; f"
+    amend = commit --amend --no-edit
+    apply = stash apply
+    back = checkout -
+    di = diff
+    ll = log --oneline --decorate --graph --all
+    ls = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Crese    t %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    master = "!git checkout master && git pull"
+    pop = stash pop
     st = status
-    clean = "!f() { git clean -f $1; }; f"
-    log = log --oneline
     stash = stash -u -k
     undo = reset --soft HEAD^
-    all = "!f() { ls -R -d */.git | xargs -I{} bash -c \"echo {} && git -C {}/../ $1\"; }; f"
-    back = "checkout -"
-[core]
-    editor = code --wait
-    autocrlf = input
-    ignorecase = false
+
+[blame]
+    markIgnoredLines = true
+    markUnblamables = true
+
+[branch]
+    autosetupmerge = true
+    autosetuprebase = always
+
+[clean]
+    requireForce = false
+
 [color]
     ui = true
+
+[column]
+    ui = auto
+
+[commit]
+    template = ~/.gitmessage
+    verbose = true
+
+[core]
+    autocrlf = input
+    editor = nvim
+    filemode = false
+    ignorecase = false
+    pager = delta
+    precomposeUnicode = true
+    whitespace = fix
+
 [credential]
-    helper = store
+    helper = manager
+
 [delta]
-    navigate = true
     features = diff-so-fancy line-numbers decorations navigate
+    navigate = true
     whitespace-error-style = 22 reverse
+
 [delta "decorations"]
     commit-decoration-style = bold yellow box ul
-    file-style = bold yellow ul
     file-decoration-style = none
+    file-style = bold yellow ul
+
 [diff]
     colorMoved = default
+
 [format]
     pretty = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
-[interactive]
-    diffFilter = delta --color-only
+
+[help]
+    autocorrect = 1
+
 [init]
     defaultBranch = master
+
+[interactive]
+    diffFilter = delta --color-only
+
 [log]
     decorate = full
+
+[merge]
+    conflictstyle = diff3
+
 [pager]
     diff = delta
     log = delta
     reflog = delta
     show = delta
+
 [pull]
     rebase = true
+
 [push]
+    autoSetupRemote = true
     default = simple
     followTags = true
-    autoSetupRemote = true
-[merge]
-    conflictstyle = diff3
+
 [rebase]
     autostash = true
-[status]
-    showUntrackedFiles = all
+
+[rerere]
+    enabled = true
+
 [stash]
     showPatch = true
+
+[status]
+    showUntrackedFiles = all
+
+[tag]
+    sort = version:refname
+
+[url "git@github.com:"]
+    insteadOf = https://github.com/
+
+[user]
+    email = akullpp@gmail.com
+    name = Andreas Kull
