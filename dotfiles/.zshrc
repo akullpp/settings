@@ -23,22 +23,28 @@ bindkey "^[[1;3D" backward-word
 # Aliases #
 ###########
 
-alias df='duf'
-alias ls='eza'
-alias ll='eza -l'
-alias cat='bat'
 alias cap='bat -p'
-alias man='tldr'
-alias top='glances'
-alias grep='rg'
-alias ps='procs'
+alias cat='bat'
 alias cd='z'
-alias v='nvim'
-alias g='gitui'
-alias gs='git st'
-alias gp='git pull'
-alias gu='git add . && git commit -m "Update" && git push'
 alias check='shellcheck'
+alias df='duf'
+alias g='gitui'
+alias gp='git pull'
+alias grep='rg'
+alias gs='git st'
+alias gu='git add . && git commit -m "Update" && git push'
+alias kill='murder'
+alias len='wc -l'
+alias ll='eza -l'
+alias ls='eza'
+alias man='tldr'
+alias mkdir='mkcd'
+alias ps='procs'
+alias rm="trash"
+alias src='source ~/.zshrc'
+alias top='glances'
+alias uuid='uuidgen'
+alias v='nvim'
 
 alias editorconfig='http get https://raw.githubusercontent.com/akullpp/settings/master/defaults/.editorconfig > .editorconfig'
 alias gitattributes='http get https://raw.githubusercontent.com/akullpp/settings/master/defaults/.gitattributes > .gitattributes'
@@ -49,13 +55,22 @@ alias prettierrc='http get https://raw.githubusercontent.com/akullpp/settings/ma
 # Environment #
 ###############
 
-export AWS_PROFILE=""
-export AWS_ACCESS_KEY_ID=""
-export AWS_SECRET_ACCESS_KEY=""
+path_dirs=(
+    "/opt/bin"
+    "/opt/homebrew/opt/gnu-tar/libexec/gnubin"
+    "$HOME/.asdf/shims"
+    "$HOME/.local/bin"
+)
+for dir in "${path_dirs[@]}"; do
+    if [[ -d "$dir" ]]; then
+        export PATH="$dir:$PATH"
+    fi
+done
+
+export EDITOR="nvim"
 
 #######
 # Run #
 #######
 
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
 ll
