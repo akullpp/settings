@@ -1,13 +1,40 @@
 {
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnType": true
+  },
+  "breadcrumbs.enabled": true,
+  "cursor.cpp.enablePartialAccepts": true,
+  "debug.console.fontFamily": "Operator Mono Lig",
+  "debug.console.fontSize": 14,
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.removeUnusedImports": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Operator Mono Lig",
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.edits.showCollapsed": true,
   "editor.inlineSuggest.enabled": true,
-  "editor.largeFileOptimizations": false,
+  "editor.largeFileOptimizations": true,
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.multiCursorModifier": "ctrlCmd",
+  "editor.semanticHighlighting.enabled": true,
   "editor.snippetSuggestions": "top",
+  "editor.suggest.localityBonus": true,
+  "editor.suggest.shareSuggestSelections": false,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.suggestSelection": "first",
   "editor.wordWrap": "on",
   "editor.wordWrapColumn": 120,
@@ -18,24 +45,28 @@
   "explorer.openEditors.visible": 1,
   "extensions.ignoreRecommendations": true,
   "files.associations": {
+    "package.json": "plaintext",
     "*.css": "tailwindcss",
     "*.js": "javascriptreact"
   },
   "files.autoSave": "onFocusChange",
+  "files.autoSaveDelay": 1000,
   "files.exclude": {
     "**/__pycache__": true
   },
+  "files.hotExit": "onExitAndWindowClose",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-"git.ignoreMissingGitWarning": true,
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/__pycache__/**": true,
+    "**/.git/objects/**": true,
+    "**/dist/**": true,
+    "**/build/**": true
+  },
+  "git.ignoreMissingGitWarning": true,
   "git.openRepositoryInParentFolders": "always",
-  "go.testFlags": [
-    "-v",
-    "-failfast"
-  ],
-  "go.toolsManagement.autoUpdate": true,
-  "go.useLanguageServer": true,
-"javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "latex-workshop.latex.tools": [
     {
       "args": [
@@ -53,13 +84,24 @@
     "default": "right",
     "jupyter-notebook": "left"
   },
-  "python.analysis.typeCheckingMode": "off",
+  "outline.showFunctions": true,
+  "outline.showVariables": true,
   "search.exclude": {
-    "**/node_modules": true
+    "**/node_modules": true,
+    "**/__pycache__": true,
+    "**/.git": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/coverage": true,
+    "**/.next": true,
+    "**/venv": true,
+    "**/.venv": true
   },
   "security.workspace.trust.enabled": false,
   "security.workspace.trust.untrustedFiles": "open",
-  "svelte.enable-ts-plugin": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontFamily": "Operator Mono Lig",
+  "terminal.integrated.fontSize": 14,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.title": "${dirty}${activeEditorMedium}",
   "workbench.activityBar.location": "hidden",
@@ -75,12 +117,5 @@
   },
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.visible": true,
-  "cSpell.userWords": [
-    "bluebucket"
-  ],
-  "java.test.config": {
-
-  },
-  "workbench.secondarySideBar.defaultVisibility": "hidden"
+  "workbench.statusBar.visible": true
 }
